@@ -234,7 +234,19 @@ footer{
        margin: 0.4em 1em 0.7em
     }
 }
-
+@media screen and (min-width: 330px) {
+    
+    .costado{
+        width: 90%;
+    }
+    #aside{
+        width: 83%;
+        height: 26vh;
+        position: absolute;
+        top: 100vh;
+        right: 9vh;
+    }
+}
 @media screen and (max-width: 320px) {
     footer{
         font-size:0.5em;

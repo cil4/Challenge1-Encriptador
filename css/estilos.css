@@ -241,10 +241,10 @@ footer{
     }
     #aside{
         width: 83%;
-        height: 26vh;
+        height: 24vh;
         position: absolute;
         top: 75vh;
-        right: 9vh;
+        right: 7vh;
     }
 }
 @media screen and (max-width: 320px) {

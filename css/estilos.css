@@ -29,7 +29,7 @@ body{
 main{
     width: 100%;
     max-width: 1250px;
-    height: 500px;
+    height: 80vh;
     
     
     
@@ -182,7 +182,7 @@ button{
     }
     #aside{
         height: 15vh;
-        width: 53%;
+        width: 60vh;
         position: absolute;
         top: 70vh;
         box-shadow: 0px 7px 31px 0px rgba(87,74,74,0.74);
@@ -194,9 +194,9 @@ button{
         
         
     }
-    .costado{
-        width: 60%;
-        margin: 0 7em;
+    .central, .costado{
+        width: 60vh;
+        margin: 0 auto;
     }
     button{
         width: 10em;
@@ -230,23 +230,24 @@ button{
     textarea{
         height: 35%;
     }
-    .central{
-        width: 80%;
+    .central, .costado{
+        width: 60vh;
+        height: 50vh;
         margin: 0 auto;
     }
-    .costado{
-        width: 80%;
-    }
     #resultado, #aside{
-        width: 60vh;
+        width: 80%;
         position: absolute;
-        top: 82vh;
-        right: 16vh;
-        height: 32vh;
+        top: 50vh;
+        right: 6vh;
+        height: 20vh;
         
     }
     div{
         height: 37%;
+    }
+    #btn-copiar{
+        margin: 0 auto;
     }
 }
 @media screen and (max-width: 320px) {

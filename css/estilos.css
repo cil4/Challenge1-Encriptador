@@ -22,7 +22,14 @@ body{
     padding: 0.5em 2em 0;
     
     
-    
+ .autor{
+  
+    float: right;
+    margin-right: 0.5em;
+    color: darkblue;
+    font-size: 1em;
+    font-weight: 400;
+  }   
     
 }
 /*MAIN */

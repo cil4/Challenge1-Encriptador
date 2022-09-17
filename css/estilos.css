@@ -24,8 +24,8 @@ body{
     
  .autor{
   
-    float: right;
-    margin-right: 0.5em;
+    float: left;
+    margin-left: 0.5em;
     color: darkblue;
     font-size: 1em;
     font-weight: 400;
